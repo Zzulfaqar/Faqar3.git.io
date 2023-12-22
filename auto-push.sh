@@ -1,4 +1,5 @@
 #!/bin/bash
+#code are from https://www.linkedin.com/in/mzulfaqar/
 
 git config core.autocrlf false
 
