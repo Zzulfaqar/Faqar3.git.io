@@ -1,44 +1,354 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faqar's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Muhammad Zulfaqar, a Security Analyst and Engineer experienced in Splunk SIEM, Cortex XDR, SOC operations, vulnerability assessment, and security posture assessment.">
+  <meta name="author" content="Muhammad Zulfaqar bin Norsaidi">
+  <meta name="theme-color" content="#07111f">
+  <meta name="color-scheme" content="dark light">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhammad Zulfaqar | Security Analyst & Engineer">
+  <meta property="og:description" content="Security operations, SIEM engineering, vulnerability assessment, and security posture assessment.">
+  <meta property="og:url" content="https://zzulfaqar.github.io/">
+  <meta property="og:image" content="https://zzulfaqar.github.io/assets/images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Muhammad Zulfaqar | Security Analyst & Engineer">
+  <meta name="twitter:description" content="Security operations, SIEM engineering, vulnerability assessment, and security posture assessment.">
+  <meta name="twitter:image" content="https://zzulfaqar.github.io/assets/images/og-image.png">
+  <link rel="canonical" href="https://zzulfaqar.github.io/">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Muhammad Zulfaqar | Security Analyst & Engineer</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Zulfaqar bin Norsaidi",
+    "jobTitle": "Security Analyst and Engineer",
+    "url": "https://zzulfaqar.github.io/",
+    "email": "mailto:mzulfa1212@gmail.com",
+    "sameAs": [
+      "https://github.com/Zzulfaqar",
+      "https://www.linkedin.com/in/mzulfaqar/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kuala Lumpur",
+      "addressCountry": "MY"
+    },
+    "knowsAbout": [
+      "Security Operations",
+      "Splunk SIEM",
+      "Cortex XDR",
+      "Vulnerability Assessment",
+      "Security Posture Assessment",
+      "ISO 27001:2022"
+    ]
+  }
+  </script>
 </head>
 <body>
-    <div class="container">
-        <h1>Faqar Portfolio</h1>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
 
-        <section id="introduction">
-            <h2>Introduction</h2>
-            <p>Greetings! I am a recent graduate from National Defence University Malaysia with a fervent interest in the dynamic field of cybersecurity. My enthusiasm extends across both defensive and offensive security realms, and I am eager to contribute my skills and knowledge to this ever-evolving domain.</p>
-        </section>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Muhammad Zulfaqar home">
+        <span class="brand-mark" aria-hidden="true">MZ</span>
+        <span class="brand-copy">
+          <strong>Muhammad Zulfaqar</strong>
+          <small>Security Portfolio</small>
+        </span>
+      </a>
 
-        <section id="skillset">
-            <h2>Skillset</h2>
-            <h3>Programming Languages</h3>
-            <ul>
-                <li><img src="https://img.shields.io/badge/Java-Intermediate-orange" alt="Java"> Java</li>
-                <li><img src="https://img.shields.io/badge/JavaScript-Beginner-ADD8E6" alt="JavaScript"> JavaScript</li>
-                <li><img src="https://img.shields.io/badge/Shellscript-Beginner-ADD8E6" alt="Shellscript"> Shellscript</li>
-                <li><img src="https://img.shields.io/badge/Linux%20Utilities-Beginner-ADD8E6" alt="Linux Utilities"> Linux Utilities</li>
-                <li><img src="https://img.shields.io/badge/Go%20language-Beginner-ADD8E6" alt="Go language"> Go language</li>
-            </ul>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
 
-            <h3>Analytical Acumen</h3>
-            <p>My mind thrives on problem-solving, meticulously sifting through data, and dissecting complex threats to unravel their intricate layers.</p>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#experience">Experience</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-            <h3>Adaptability Arsenal</h3>
-            <p>In the ever-shifting landscape of cybersecurity, agility is paramount. I embrace new technologies with gusto, continuously expanding my skillset to stay ahead of the curve.</p>
-        </section>
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </nav>
+  </header>
 
-        <!-- Add other sections based on your content -->
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Security Analyst & Engineer · Kuala Lumpur</p>
+          <h1>Building visibility.<br><span>Validating threats.</span><br>Strengthening security posture.</h1>
+          <p class="hero-lead">Hands-on experience across Splunk SIEM engineering, 24/7 SOC operations, Cortex XDR alert validation, vulnerability assessment, security consulting, and infrastructure security.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#case-studies">Explore case studies
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+            </a>
+            <a class="button button-secondary" href="assets/resume/Muhammad-Zulfaqar-Resume.pdf" download>Download resume
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"></path></svg>
+            </a>
+          </div>
+          <div class="hero-links" aria-label="Professional profiles">
+            <a href="https://github.com/Zzulfaqar" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/mzulfaqar/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="mailto:mzulfa1212@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Reach out via email <a href="mailto:mzulfa1212@gmail.com">mzulfa1212@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/mzulfaqar/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
-        </section>
+        <div class="hero-console reveal" aria-label="Professional profile summary">
+          <div class="console-window">
+            <div class="console-bar">
+              <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <p>portfolio://security-profile</p>
+              <span class="console-lock" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg>
+              </span>
+            </div>
+            <div class="console-body">
+              <div class="console-heading">
+                <span class="signal-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+                <div><small>PROFILE STATUS</small><strong>Operational</strong></div>
+              </div>
+              <dl class="profile-data">
+                <div><dt>ROLE</dt><dd>Security Analyst & Engineer</dd></div>
+                <div><dt>FOCUS</dt><dd>SOC · SIEM · Assessment</dd></div>
+                <div><dt>OPERATIONS</dt><dd>24/7 monitoring environment</dd></div>
+                <div><dt>COVERAGE</dt><dd>500+ endpoints monitored</dd></div>
+                <div><dt>DELIVERY</dt><dd>7 domains in &lt; 3 weeks</dd></div>
+              </dl>
+              <div class="console-stack">
+                <span>Splunk</span><span>Cortex XDR</span><span>Nessus</span><span>Linux</span><span>ISO 27001</span>
+              </div>
+              <div class="console-line"><span>mzulfaqar@portfolio:~$</span><strong class="typed-text"> assess --validate --report</strong><i aria-hidden="true"></i></div>
+            </div>
+          </div>
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Professional impact">
+      <div class="container metric-grid">
+        <article class="metric-card reveal">
+          <span class="metric-number" data-count="500" data-suffix="+">500+</span>
+          <p>Endpoints covered through SIEM and XDR monitoring</p>
+        </article>
+        <article class="metric-card reveal">
+          <span class="metric-number" data-count="7">7</span>
+          <p>Security domains delivered in one posture assessment</p>
+        </article>
+        <article class="metric-card reveal">
+          <span class="metric-number">&lt; 3 weeks</span>
+          <p>Assessment delivery including technical and executive reporting</p>
+        </article>
+        <article class="metric-card reveal">
+          <span class="metric-number" data-count="200" data-suffix="+">200+</span>
+          <p>Client endpoints supported through preventive maintenance</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div class="section-intro reveal">
+          <p class="section-kicker">01 / About</p>
+          <h2>Security work that connects engineering, operations, and communication.</h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="large-copy">I am a Security Analyst and Engineer with experience establishing centralized monitoring, validating security alerts, assessing technical risk, and translating findings into remediation-focused reports.</p>
+          <p>My work spans government and private-sector engagements. I have supported Splunk infrastructure, 24/7 SOC operations, host and network vulnerability assessments, wireless security assessments, ISO 27001:2022 activities, firewall configuration, endpoint maintenance, and security awareness exercises.</p>
+          <div class="principles-grid">
+            <article><span>01</span><h3>Validate before escalating</h3><p>Separate actionable security events from noise through disciplined triage and evidence review.</p></article>
+            <article><span>02</span><h3>Report for the audience</h3><p>Turn technical findings into clear remediation priorities for engineers, managers, and executives.</p></article>
+            <article><span>03</span><h3>Build maintainable visibility</h3><p>Treat monitoring infrastructure as an operational system that requires health checks and preventive maintenance.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="case-studies">
+      <div class="container">
+        <div class="section-header reveal">
+          <div><p class="section-kicker">02 / Case Studies</p><h2>Selected security work</h2></div>
+          <p>Sanitized summaries based on professional responsibilities. Client identities and sensitive technical details are intentionally excluded.</p>
+        </div>
+
+        <div class="case-grid">
+          <a class="case-card featured reveal" href="case-studies/splunk-siem.html">
+            <div class="case-top"><span>SIEM ENGINEERING</span><span>01</span></div>
+            <div class="case-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M12 18h40v28H12z"></path><path d="M20 26h12M20 34h24M20 42h18"></path><circle cx="47" cy="25" r="2"></circle></svg></div>
+            <h3>Splunk Security Monitoring Environment</h3>
+            <p>Installed and configured Splunk server components to centralize security logs and support operational monitoring requirements.</p>
+            <div class="case-result"><small>OUTCOME</small><strong>Centralized security-event visibility</strong></div>
+            <span class="case-link">Read sanitized case study <span aria-hidden="true">→</span></span>
+          </a>
+
+          <a class="case-card reveal" href="case-studies/security-posture-assessment.html">
+            <div class="case-top"><span>SECURITY CONSULTING</span><span>02</span></div>
+            <div class="case-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M32 7 52 16v15c0 13-8 22-20 27C20 53 12 44 12 31V16z"></path><path d="m23 32 6 6 13-14"></path></svg></div>
+            <h3>Seven-Domain Security Posture Assessment</h3>
+            <p>Coordinated technical assessment work, documented findings, and prepared remediation-focused material for technical and executive audiences.</p>
+            <div class="case-result"><small>DELIVERY</small><strong>Seven domains in under three weeks</strong></div>
+            <span class="case-link">Read sanitized case study <span aria-hidden="true">→</span></span>
+          </a>
+
+          <a class="case-card reveal" href="case-studies/soc-alert-triage.html">
+            <div class="case-top"><span>SOC OPERATIONS</span><span>03</span></div>
+            <div class="case-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M10 48h44M15 48V18h34v30"></path><path d="m21 38 7-8 6 5 9-12"></path><circle cx="43" cy="23" r="2"></circle></svg></div>
+            <h3>SIEM and XDR Alert Triage</h3>
+            <p>Monitored, triaged, and validated suspicious activity across a 24/7 operational environment before escalation for investigation and response.</p>
+            <div class="case-result"><small>ENVIRONMENT</small><strong>500+ endpoints within SLA</strong></div>
+            <span class="case-link">Read sanitized case study <span aria-hidden="true">→</span></span>
+          </a>
+
+          <a class="case-card reveal" href="case-studies/vulnerability-assessment.html">
+            <div class="case-top"><span>VULNERABILITY MANAGEMENT</span><span>04</span></div>
+            <div class="case-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="28" cy="28" r="16"></circle><path d="m40 40 13 13M20 28h16M28 20v16"></path></svg></div>
+            <h3>Host and Internal Network Assessment</h3>
+            <p>Used Nessus and supporting validation techniques to identify weaknesses, prioritize risk, and produce practical remediation guidance.</p>
+            <div class="case-result"><small>OUTPUT</small><strong>Validated findings and remediation reports</strong></div>
+            <span class="case-link">Read sanitized case study <span aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <div><p class="section-kicker">03 / Experience</p><h2>Professional timeline</h2></div>
+          <p>Experience across security operations, consulting, infrastructure support, governance, and research and development.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">JAN 2024 — PRESENT</div>
+            <div class="timeline-marker" aria-hidden="true"><span></span></div>
+            <div class="timeline-content">
+              <div class="role-heading"><div><h3>Security Analyst & Engineer</h3><p>Securelytics Sdn. Bhd. · Petaling Jaya</p></div><span class="role-status">Current role</span></div>
+              <ul>
+                <li>Installed, configured, and maintained Splunk server components for centralized security monitoring.</li>
+                <li>Performed 24/7 SIEM and Cortex XDR alert monitoring, triage, validation, and escalation within SLA requirements.</li>
+                <li>Led and supported security posture, wireless security, and host vulnerability assessment engagements.</li>
+                <li>Prepared technical findings, risk priorities, remediation reports, and management-facing presentation material.</li>
+                <li>Supported firewall, CPE, Cloud ACS, Linux server, endpoint maintenance, ISO 27001:2022, and phishing-awareness activities.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">OCT — DEC 2023</div>
+            <div class="timeline-marker" aria-hidden="true"><span></span></div>
+            <div class="timeline-content">
+              <div class="role-heading"><div><h3>Security Analyst, On-the-Job Training</h3><p>Diaspora Sdn. Bhd. · Petaling Jaya</p></div></div>
+              <ul>
+                <li>Supported ISO 27001:2022 policy creation, review, maintenance, and security-awareness initiatives.</li>
+                <li>Participated in controlled security assessment exercises using Kali Linux, Burp Suite, Metasploit, and Nmap.</li>
+                <li>Demonstrated vulnerability and compromise assessment concepts in Metasploitable environments.</li>
+                <li>Compared assessment approaches and evaluated open-source tools including Wazuh and Velociraptor.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">MAR — SEP 2023</div>
+            <div class="timeline-marker" aria-hidden="true"><span></span></div>
+            <div class="timeline-content">
+              <div class="role-heading"><div><h3>Research and Development Intern</h3><p>MIMOS Berhad · Kuala Lumpur</p></div></div>
+              <ul>
+                <li>Supported Hyperledger Fabric research, development, benchmarking, and performance testing.</li>
+                <li>Contributed to patent-related performance-testing work using benchmarking and organizational tools.</li>
+                <li>Implemented Grafana monitoring to support performance testing for newer blockchain framework versions.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="capabilities">
+      <div class="container">
+        <div class="section-header reveal">
+          <div><p class="section-kicker">04 / Capabilities</p><h2>Technical focus areas</h2></div>
+          <p>Tools are grouped around demonstrated work rather than unsupported proficiency percentages.</p>
+        </div>
+        <div class="capability-grid">
+          <article class="capability-card capability-wide reveal">
+            <div class="capability-number">01</div><div><h3>Security Operations</h3><p>SIEM monitoring, XDR alert triage, incident validation, log analysis, escalation workflows, and SLA-driven 24/7 operations.</p><div class="tag-list"><span>Splunk</span><span>Cortex XDR</span><span>Security Event Analysis</span><span>Log Monitoring</span></div></div>
+          </article>
+          <article class="capability-card reveal">
+            <div class="capability-number">02</div><div><h3>Assessment</h3><p>Host, internal network, wireless, posture, and awareness assessments with validation and remediation reporting.</p><div class="tag-list"><span>Nessus</span><span>Nmap</span><span>Metasploit</span><span>Burp Suite</span><span>Kali Linux</span></div></div>
+          </article>
+          <article class="capability-card reveal">
+            <div class="capability-number">03</div><div><h3>Infrastructure</h3><p>Linux server health checks, firewall configuration, CPE provisioning, Cloud ACS connectivity, and network-device support.</p><div class="tag-list"><span>Linux</span><span>AWS EC2</span><span>Azure</span><span>Firewall</span><span>Cloud ACS</span></div></div>
+          </article>
+          <article class="capability-card reveal">
+            <div class="capability-number">04</div><div><h3>Monitoring and Testing</h3><p>Infrastructure observability and application performance testing across research and client-support contexts.</p><div class="tag-list"><span>Grafana</span><span>Prometheus</span><span>JMeter</span><span>Docker</span></div></div>
+          </article>
+          <article class="capability-card capability-wide reveal">
+            <div class="capability-number">05</div><div><h3>Governance and Communication</h3><p>ISO 27001:2022 support, policy review, phishing-awareness exercises, technical reporting, remediation planning, and executive communication.</p><div class="tag-list"><span>ISO 27001:2022</span><span>Policy Review</span><span>Awareness</span><span>Technical Reporting</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="credentials">
+      <div class="container">
+        <div class="section-header reveal">
+          <div><p class="section-kicker">05 / Credentials</p><h2>Certifications and education</h2></div>
+          <p>A foundation in system security supported by industry certifications and applied operational experience.</p>
+        </div>
+        <div class="credential-grid">
+          <article class="credential-card reveal">
+            <div class="credential-badge">CEH</div>
+            <div><p class="credential-type">CERTIFICATION</p><h3>Certified Ethical Hacker</h3><p>EC-Council</p></div>
+          </article>
+          <article class="credential-card reveal">
+            <div class="credential-badge">AZ</div>
+            <div><p class="credential-type">CERTIFICATION</p><h3>Microsoft Azure Fundamentals</h3><p>AZ-900</p></div>
+          </article>
+          <article class="credential-card education-card reveal">
+            <div class="credential-badge">BSc</div>
+            <div><p class="credential-type">EDUCATION · 2020–2023</p><h3>Bachelor of Computer Science, System Security</h3><p>Universiti Pertahanan Nasional Malaysia · CGPA 3.54</p><small>Final-year project: computer-lab browser monitoring and detection system, presented at the DSS Exhibition.</small></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel reveal">
+        <div>
+          <p class="section-kicker">06 / Contact</p>
+          <h2>Let’s discuss security operations, engineering, or assessment work.</h2>
+          <p>For professional enquiries, use email or connect through LinkedIn. Client-sensitive information is not published on this portfolio.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:mzulfa1212@gmail.com">Send an email <span aria-hidden="true">↗</span></a>
+          <button class="button button-secondary copy-email" type="button" data-email="mzulfa1212@gmail.com">Copy email address</button>
+          <a class="text-link" href="https://www.linkedin.com/in/mzulfaqar/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>Muhammad Zulfaqar</strong><p>Security Analyst & Engineer</p></div>
+      <p>© <span id="current-year">2026</span> Muhammad Zulfaqar. Built for GitHub Pages.</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
     </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
 </body>
 </html>
